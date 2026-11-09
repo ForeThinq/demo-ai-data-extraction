@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+/output_clean.csv
+/output_clean_review.csv
+.env

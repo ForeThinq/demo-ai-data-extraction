@@ -1,0 +1,23 @@
+INVOICE
+==================================================
+BrightServe Facilities Pvt. Ltd.
+14, MG Road, Bengaluru 560001
+GSTIN: 29ABCDE1234F1Z5
+
+Invoice No: INV-2026-0142
+Date: 12-Oct-2026
+
+Bill To:
+SmileCare Dental Clinic
+Bandra West, Mumbai
+
+Description                              Amount
+--------------------------------------------------
+Monthly deep-cleaning service (Oct)      18,500.00
+Consumables & supplies                    2,300.00
+--------------------------------------------------
+Subtotal                                 20,800.00
+GST (18%)                                 3,744.00
+TOTAL DUE                                24,544.00 INR
+
+Payment due within 15 days. Thank you!

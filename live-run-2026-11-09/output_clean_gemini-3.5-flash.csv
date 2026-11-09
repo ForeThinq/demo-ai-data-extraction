@@ -1,0 +1,4 @@
+invoice_number,date,vendor,customer,total_amount,currency,due_date,source_file
+BSI/26/1093,2026-10-18,BeautySupplies India,Glow & Co Salon,8958.00,INR,,invoice_03.txt
+INV-2026-0142,2026-10-12,BrightServe Facilities Pvt. Ltd.,SmileCare Dental Clinic,24544.00,INR,,invoice_01.txt
+PK-8841,2026-10-03,PixelKart Studio,Jensen Realty,1250.00,USD,,invoice_02.txt

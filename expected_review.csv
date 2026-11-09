@@ -1,0 +1,3 @@
+source_file,status,reason,invoice_number,vendor,total_amount
+invoice_04_duplicate.txt,DUPLICATE,invoice INV-2026-0142 already extracted from invoice_01.txt,INV-2026-0142,BrightServe Facilities Pvt. Ltd.,24544.00
+not_an_invoice.txt,NOT_INVOICE,"model says this is not an invoice, bill, or order confirmation",,,
