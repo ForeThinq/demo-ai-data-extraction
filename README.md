@@ -9,7 +9,7 @@
 
 Built by [Forethinq Labs](https://github.com/ForeThinq) as a working demo of the data-extraction and cleanup work we do for clients.
 
-**Tested on:** 9 Nov 2026. The full test suite (`python test_extract.py`, 10 tests) and the `--self-test` run pass: output matches `expected_output.csv` and `expected_review.csv` exactly (canned/stubbed model responses). Live runs with a real Gemini key were done the same day (outputs in `live-run-2026-11-09/`). The configured model is `gemini-3.1-flash-lite`, and on it the live output matched `expected_output.csv` and `expected_review.csv` exactly: 3 clean rows, the duplicate filed, the non-invoice filed.
+**Tested on:** 9 Nov 2026 · model `gemini-3.1-flash-lite`. The full test suite (`python test_extract.py`, 10 tests) and the `--self-test` run pass: output matches `expected_output.csv` and `expected_review.csv` exactly (canned/stubbed model responses). Live runs with a real Gemini key were done the same day (outputs in `live-run-2026-11-09/`). On the configured model, the live output matched `expected_output.csv` and `expected_review.csv` exactly: 3 clean rows, the duplicate filed, the non-invoice filed.
 
 An earlier live run on `gemini-3.5-flash` also passed, with one difference: `invoice_01.txt` states only "payment due within 15 days", and that model left `due_date` empty instead of computing the date (the configured model computed 2026-10-27). `gemini-3.8-flash` and `gemini-3.7-flash` could not be tested that day: both returned 503/429 (Google-side capacity and low limits), which is why the Lite model is the configured one.
 
